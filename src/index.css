@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-item {
+    @apply relative;
+  }
+
+  .nav-item::after {
+    @apply absolute bottom-0 left-0 w-0 h-[2px] bg-white transition-all duration-300;
+    content: '';
+  }
+
+  .nav-item:hover::after {
+    @apply w-full;
+  }
+}
