@@ -4,7 +4,7 @@ const Footer = () => {
       <div className='md:w-1/3'>
         {/* Imagen izquierda */}
         <img
-          src='/public/media/images/image-about-dark.jpg'
+          src='/media/images/image-about-dark.jpg'
           alt=''
           className='bg-cover w-full h-64 md:h-auto'
         />
@@ -24,7 +24,7 @@ const Footer = () => {
       <div className='md:w-1/3'>
         {/* Imagen derecha */}
         <img
-          src='/public/media/images/image-about-light.jpg'
+          src='/media/images/image-about-light.jpg'
           alt=''
           className='bg-cover w-full h-64  md:h-auto'
         />

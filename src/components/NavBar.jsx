@@ -18,7 +18,7 @@ const NavBar = () => {
         <div className='flex items-center '>
           <a href='#' aria-label='Home'>
             <img
-              src='/public/media/images/logo.svg'
+              src='media/images/logo.svg'
               alt='logo'
               className='h-4 md:h-4'
             />
@@ -46,7 +46,7 @@ const NavBar = () => {
         >
           <li className='nav-item md:hidden mr-16'>
             <button href='#' onClick={handleMenuClose}>
-              <img src='/public/media/images/icon-close.svg' alt='close menu' />
+              <img src='/media/images/icon-close.svg' alt='close menu' />
             </button>
           </li>
           <li className='nav-item'>
