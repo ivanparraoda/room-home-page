@@ -15,19 +15,19 @@ const InteractiveGallery = () => {
       id: 1,
       title: 'Discover innovative ways to decorate',
       text: 'We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.',
-      img: '/public/media/images/desktop-image-hero-1.jpg'
+      img: '/media/images/desktop-image-hero-1.jpg'
     },
     {
       id: 2,
       title: 'We are available all across the globe',
       text: 'With stores all over the world, it’s easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don’t hesitate to contact us today.',
-      img: '/public/media/images/desktop-image-hero-2.jpg'
+      img: '/media/images/desktop-image-hero-2.jpg'
     },
     {
       id: 3,
       title: 'Manufactured with the best materials',
       text: 'Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office.',
-      img: '/public/media/images/desktop-image-hero-3.jpg'
+      img: '/media/images/desktop-image-hero-3.jpg'
     }
   ]
 
@@ -43,7 +43,7 @@ const InteractiveGallery = () => {
           <div className='w-12 h-12 p-3 bg-black'>
             <button onClick={handleLast}>
               <img
-                src='/public/media/images/icon-angle-left.svg'
+                src='/media/images/icon-angle-left.svg'
                 alt='left'
                 className='w-3 h-5'
               />
@@ -52,7 +52,7 @@ const InteractiveGallery = () => {
           <div className='w-12 h-12 p-3 bg-black'>
             <button onClick={handleNext}>
               <img
-                src='/public/media/images/icon-angle-right.svg'
+                src='/media/images/icon-angle-right.svg'
                 alt='right'
                 className='w-3 h-5'
               />
@@ -70,7 +70,7 @@ const InteractiveGallery = () => {
         >
           SHOP NOW{' '}
           <img
-            src='/public/media/images/icon-arrow.svg'
+            src='/media/images/icon-arrow.svg'
             alt='arrow'
             className='w-10 h-3'
           />
