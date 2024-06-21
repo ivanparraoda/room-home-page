@@ -42,7 +42,7 @@ const NavBar = () => {
         <ul
           className={` flex gap-4 w-full  absolute md:static left-0 top-0 h-[6rem] md:h-1/2 items-center  font-bold lg:gap-6 lg:font-semibold lg:text-white lg:flex-grow ${
             isMenuOpen ? 'block text-black' : 'hidden '
-          } bg-white text-white p-4 lg:p-0 lg:bg-transparent lg:flex lg:items-center`}
+          } bg-white  p-4 lg:p-0 lg:bg-transparent lg:flex lg:items-center`}
         >
           <li className='nav-item md:hidden mr-16'>
             <button href='#' onClick={handleMenuClose}>

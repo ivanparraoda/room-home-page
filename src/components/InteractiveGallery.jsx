@@ -32,11 +32,12 @@ const InteractiveGallery = () => {
   ]
 
   return (
-    <main className='flex flex-col md:flex-row relative w-full md:h-[450px] '>
-      <div className='relative flex-grow-2 md:basis-2/3  md:h-auto'>
+    <main className='flex flex-col md:flex-row relative w-full md:h-[450px]'>
+      <div className='relative flex-grow-2 md:basis-2/3 h-64 md:h-auto'>
         <img
           src={data[currentIndex].img}
           className='w-full h-full object-cover'
+          alt={data[currentIndex].title}
         />
         <div className='flex absolute items-center right-0 md:-right-24 bottom-0'>
           <div className='w-12 h-12 p-3 bg-black'>
@@ -60,7 +61,7 @@ const InteractiveGallery = () => {
         </div>
       </div>
 
-      <div className='p-16 flex flex-col gap-4 flex-grow md:basis-1/3 md:mt-10'>
+      <div className='p-16 flex flex-col gap-4 flex-grow md:basis-1/3 md:mt-10 min-h-[200px]'>
         <h2 className='font-bold text-3xl'>{data[currentIndex].title}</h2>
         <p className='text-xs text-gray-500'>{data[currentIndex].text}</p>
         <a
